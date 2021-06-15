@@ -47,10 +47,13 @@ public class Mahasiswa {
                 if(tanggalTanggalIni<tanggalTanggalLahir){
                     selisihTahun--;
                 }
-
             }
         }
 
         return selisihTahun;
+    }
+
+    public Mahasiswa() {
+        System.out.println("Ini dari constructor");
     }
 }
