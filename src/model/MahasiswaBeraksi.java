@@ -12,10 +12,10 @@ public class MahasiswaBeraksi {
 
         //instance - pembuatan object
         Mahasiswa mahasiswa = new Mahasiswa();
-        mahasiswa.npm = "19631003";
-        mahasiswa.nama = "Awal";
+        mahasiswa.setNpm("19631003");
+        mahasiswa.setNama("Awal");
         try {
-            mahasiswa.tanggalLahir = sdf.parse("09-06-2000");
+            mahasiswa.setTanggalLahir(sdf.parse("09-06-2000"));
             mahasiswa.tampilkanAtribut();
         } catch (ParseException e) {
             System.err.println("Format tanggal tidak sesuai");

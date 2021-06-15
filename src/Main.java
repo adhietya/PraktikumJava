@@ -1,3 +1,4 @@
+import model.Mahasiswa;
 import sun.plugin.cache.OldCacheEntry;
 
 import java.sql.SQLOutput;
@@ -38,6 +39,8 @@ public class Main {
 
         for (String nama: namaArray)
             System.out.println(nama);
+        Mahasiswa m = new Mahasiswa();
+        m.setNpm("19631003");
 
     }
 }
